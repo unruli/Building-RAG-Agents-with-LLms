@@ -8,6 +8,7 @@ This repository contains examples and utilities for building Retrieval-Augmented
 * **Data Retrieval:** Integrates with various data sources (e.g., vector databases, document stores).
 * **Contextual Response Generation:** Augments language model prompts with retrieved information.
 * **Modular Design:** Enables easy integration of different retrieval and generation components.
+* **Framework Exploration:** Demonstrates RAG implementations using both **LangChain** and **LlamaIndex**.
 
 **Getting Started:**
 
