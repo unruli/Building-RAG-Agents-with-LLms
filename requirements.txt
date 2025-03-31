@@ -1,8 +1,8 @@
-openai
-langchain_nvidia_ai_endpoints
-langchain_community
-faiss-cpu
-python-dotenv
-streamlit
-pypdf
-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
+streamlit==1.32.0
+langchain==0.1.12
+langchain-nvidia-ai-endpoints==0.0.5
+langchain-community>=0.0.28
+langchain-core==0.1.32
+faiss-cpu==1.8.0
+python-dotenv==1.0.1
+pypdf==4.0.2
