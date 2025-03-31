@@ -2,7 +2,7 @@
 
 # 🤠 RAG Application with NVIDIA NIM + Streamlit
 
-This project demonstrates how to build a **Retrieval-Augmented Generation (RAG)** pipeline using **NVIDIA's NIM (NeMo Inference Microservices)** and **LangChain**, with a Streamlit UI for interaction. The project processes documents (PDFs), creates vector embeddings, and allows natural language querying over the content using powerful LLM capabilities.
+This project was to build a **Retrieval-Augmented Generation (RAG)** pipeline using **NVIDIA's NIM (NeMo Inference Microservices)** and **LangChain**, with a Streamlit UI for interaction. The project processes documents (PDFs), creates vector embeddings, and allows natural language querying over the content using powerful LLM capabilities.
 
 ---
 
