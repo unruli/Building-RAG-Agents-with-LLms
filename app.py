@@ -1,20 +1,16 @@
 from openai import OpenAI
-import os
-
 
 client = OpenAI(
   base_url = "https://integrate.api.nvidia.com/v1",
-  api_key = "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"
+  api_key = "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"
 )
 
 completion = client.chat.completions.create(
-  model="nvidia/llama-3.3-nemotron-super-49b-v1",
-  messages=[{"role":"system","content":"detailed thinking on"},{"role":"user","content":"Write a limerick about the wonders of GPU computing."}],
-  temperature=0.6,
+  model="meta/llama-3.3-70b-instruct",
+  messages=[{"role":"user","content":"what is machine learning"}],
+  temperature=0.2,
   top_p=0.7,
   max_tokens=1024,
-  frequency_penalty=0,
-  presence_penalty=0,
   stream=True
 )
 
